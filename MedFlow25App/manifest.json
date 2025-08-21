@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "version": "1.0.0",
+  "id": "com.medflow25.bot",
+  "packageName": "com.medflow25.bot",
+  "developer": {
+    "name": "MedFlow25 Team",
+    "websiteUrl": "https://example.com",
+    "privacyUrl": "https://example.com/privacy",
+    "termsOfUseUrl": "https://example.com/terms"
+  },
+  "name": {
+    "short": "MedFlow25",
+    "full": "MedFlow25 AI Assistant"
+  },
+  "description": {
+    "short": "AI assistant for PillCam Genius and Cloud Reader",
+    "full": "MedFlow25 helps troubleshoot and guide users through PillCam Genius, Cloud Reader, and RTV application issues."
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#00A1F1",
+  "bots": [
+    {
+      "botId": "bot-id-placeholder",
+      "scopes": ["personal", "team"],
+      "supportsFiles": true,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": ["example.com"]
+}
