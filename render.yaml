@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: haddy-drive-voice-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python haddy_drive_web_app.py
